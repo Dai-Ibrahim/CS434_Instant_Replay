@@ -5,7 +5,7 @@ using UnityEngine;
 public abstract class Command
 {
     public Rigidbody player_rb;
-    public float timestamp; // for logging purposes
+    public float timestamp; 
     public abstract void Execute();
 }
 
